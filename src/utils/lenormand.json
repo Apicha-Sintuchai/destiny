@@ -1,0 +1,292 @@
+{
+    "lenormand": [
+        {
+            "name": "The Rider",
+            "name_th": "สุภาพบุรุษขี่ม้า",
+            "image": "http://103.117.149.61:9000/biolink-refactor/1.png",
+            "description": "ข่าวสาร, การมาถึง, การติดต่อ, การเคลื่อนไหวที่รวดเร็ว",
+            "description_th": "ข่าวสาร, การมาถึง, การติดต่อ, การเคลื่อนไหวที่รวดเร็ว",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Clover",
+            "name_th": "ใบโคลเวอร์",
+            "image": "http://103.117.149.61:9000/biolink-refactor/2.png",
+            "description": "โชคเล็ก ๆ น้อย ๆ, โอกาส, ความสุขสั้น ๆ",
+            "description_th": "โชคเล็ก ๆ น้อย ๆ, โอกาส, ความสุขสั้น ๆ",
+            "category": "FINANCE"
+        },
+        {
+            "name": "The Ship",
+            "name_th": "เรือ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/3.png",
+            "description": "การเดินทาง, การเปลี่ยนแปลง, การค้าขาย, ความเป็นอิสระ",
+            "description_th": "การเดินทาง, การเปลี่ยนแปลง, การค้าขาย, ความเป็นอิสระ",
+            "category": "CAREER"
+        },
+        {
+            "name": "The House",
+            "name_th": "บ้าน",
+            "image": "http://103.117.149.61:9000/biolink-refactor/4.png",
+            "description": "ความมั่นคง, ครอบครัว, บ้านเรือน, ตัวผู้ทำนายเอง",
+            "description_th": "ความมั่นคง, ครอบครัว, บ้านเรือน, ตัวผู้ทำนายเอง",
+            "category": "FINANCE"
+        },
+        {
+            "name": "The Tree",
+            "name_th": "ต้นไม้",
+            "image": "http://103.117.149.61:9000/biolink-refactor/5.png",
+            "description": "สุขภาพ, ความเติบโต, ความมั่นคง, รากฐาน, ชีวิต",
+            "description_th": "สุขภาพ, ความเติบโต, ความมั่นคง, รากฐาน, ชีวิต",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Clouds",
+            "name_th": "เมฆ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/6.png",
+            "description": "ความสับสน, ความไม่แน่นอน, ปัญหาชั่วคราว",
+            "description_th": "ความสับสน, ความไม่แน่นอน, ปัญหาชั่วคราว",
+            "category": "FINANCE"
+        },
+        {
+            "name": "The Snake",
+            "name_th": "งู",
+            "image": "http://103.117.149.61:9000/biolink-refactor/7.png",
+            "description": "การหลอกลวง, การทรยศ, ปัญหาด้านสุขภาพ, ผู้หญิงที่ฉลาดหรืออันตราย",
+            "description_th": "การหลอกลวง, การทรยศ, ปัญหาด้านสุขภาพ, ผู้หญิงที่ฉลาดหรืออันตราย",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Coffin",
+            "name_th": "โลงศพ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/8.png",
+            "description": "การจบสิ้น, ความสูญเสีย, การเจ็บป่วย, การเปลี่ยนแปลงครั้งใหญ่",
+            "description_th": "การจบสิ้น, ความสูญเสีย, การเจ็บป่วย, การเปลี่ยนแปลงครั้งใหญ่",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Bouquet",
+            "name_th": "ช่อดอกไม้",
+            "image": "http://103.117.149.61:9000/biolink-refactor/9.png",
+            "description": "ความสุข, ความสวยงาม, ของขวัญ, คำเชิญ",
+            "description_th": "ความสุข, ความสวยงาม, ของขวัญ, คำเชิญ",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Scythe",
+            "name_th": "เคียวเกี่ยวข้าว",
+            "image": "http://103.117.149.61:9000/biolink-refactor/10.png",
+            "description": "การตัดสินใจอย่างฉับพลัน, อันตราย, การตัดขาด",
+            "description_th": "การตัดสินใจอย่างฉับพลัน, อันตราย, การตัดขาด",
+            "category": "FINANCE"
+        },
+        {
+            "name": "The Whip",
+            "name_th": "แส้",
+            "image": "http://103.117.149.61:9000/biolink-refactor/11.png",
+            "description": "ความขัดแย้ง, การทะเลาะวิวาท, การทำซ้ำ, กิจกรรมทางเพศ",
+            "description_th": "ความขัดแย้ง, การทะเลาะวิวาท, การทำซ้ำ, กิจกรรมทางเพศ",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Birds",
+            "name_th": "นก",
+            "image": "http://103.117.149.61:9000/biolink-refactor/12.png",
+            "description": "การสนทนา, การเจรจา, การสื่อสาร, ความตื่นเต้น",
+            "description_th": "การสนทนา, การเจรจา, การสื่อสาร, ความตื่นเต้น",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Child",
+            "name_th": "เด็ก",
+            "image": "http://103.117.149.61:9000/biolink-refactor/13.png",
+            "description": "การเริ่มต้นใหม่, ความไร้เดียงสา, เด็ก, สิ่งเล็ก ๆ",
+            "description_th": "การเริ่มต้นใหม่, ความไร้เดียงสา, เด็ก, สิ่งเล็ก ๆ",
+            "category": "FINANCE"
+        },
+        {
+            "name": "The Fox",
+            "name_th": "สุนัขจิ้งจอก",
+            "image": "http://103.117.149.61:9000/biolink-refactor/14.png",
+            "description": "ความฉลาด, การงาน, การหลอกลวงที่แนบเนียน",
+            "description_th": "ความฉลาด, การงาน, การหลอกลวงที่แนบเนียน",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Bear",
+            "name_th": "หมี",
+            "image": "http://103.117.149.61:9000/biolink-refactor/15.png",
+            "description": "อำนาจ, การเงิน, เจ้านาย, บุคคลที่มีอิทธิพล",
+            "description_th": "อำนาจ, การเงิน, เจ้านาย, บุคคลที่มีอิทธิพล",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Stars",
+            "name_th": "ดวงดาว",
+            "image": "http://103.117.149.61:9000/biolink-refactor/16.png",
+            "description": "ความหวัง, แรงบันดาลใจ, ความสำเร็จ, ทิศทาง",
+            "description_th": "ความหวัง, แรงบันดาลใจ, ความสำเร็จ, ทิศทาง",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Stork",
+            "name_th": "นกกระสา",
+            "image": "http://103.117.149.61:9000/biolink-refactor/17.png",
+            "description": "การเปลี่ยนแปลง, การย้ายที่อยู่, การเกิด, ความก้าวหน้า",
+            "description_th": "การเปลี่ยนแปลง, การย้ายที่อยู่, การเกิด, ความก้าวหน้า",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Dog",
+            "name_th": "สุนัข",
+            "image": "http://103.117.149.61:9000/biolink-refactor/18.png",
+            "description": "มิตรภาพ, ความซื่อสัตย์, เพื่อน, ความช่วยเหลือ",
+            "description_th": "มิตรภาพ, ความซื่อสัตย์, เพื่อน, ความช่วยเหลือ",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Tower",
+            "name_th": "หอคอย",
+            "image": "http://103.117.149.61:9000/biolink-refactor/19.png",
+            "description": "องค์กรขนาดใหญ่, ความโดดเดี่ยว, การแยกตัว, ราชการ",
+            "description_th": "องค์กรขนาดใหญ่, ความโดดเดี่ยว, การแยกตัว, ราชการ",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Garden",
+            "name_th": "สวน",
+            "image": "http://103.117.149.61:9000/biolink-refactor/20.png",
+            "description": "สังคม, งานปาร์ตี้, ที่สาธารณะ, เครือข่าย",
+            "description_th": "สังคม, งานปาร์ตี้, ที่สาธารณะ, เครือข่าย",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Mountain",
+            "name_th": "ภูเขา",
+            "image": "http://103.117.149.61:9000/biolink-refactor/21.png",
+            "description": "อุปสรรค, ความล่าช้า, ปัญหาใหญ่, สิ่งที่อยู่ไกล",
+            "description_th": "อุปสรรค, ความล่าช้า, ปัญหาใหญ่, สิ่งที่อยู่ไกล",
+            "category": "FINANCE"
+        },
+        {
+            "name": "The Crossroads",
+            "name_th": "ทางแยก",
+            "image": "http://103.117.149.61:9000/biolink-refactor/22.png",
+            "description": "การตัดสินใจ, ทางเลือก, ความลังเล",
+            "description_th": "การตัดสินใจ, ทางเลือก, ความลังเล",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Mice",
+            "name_th": "หนู",
+            "image": "http://103.117.149.61:9000/biolink-refactor/23.png",
+            "description": "ความสูญเสีย, การถูกขโมย, ความเสียหาย, ความกังวล",
+            "description_th": "ความสูญเสีย, การถูกขโมย, ความเสียหาย, ความกังวล",
+            "category": "LIFE"
+        },
+        {
+            "name": "The Heart",
+            "name_th": "หัวใจ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/24.png",
+            "description": "ความรัก, อารมณ์, ความรู้สึก, ความสัมพันธ์",
+            "description_th": "ความรัก, อารมณ์, ความรู้สึก, ความสัมพันธ์",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Ring",
+            "name_th": "แหวน",
+            "image": "http://103.117.149.61:9000/biolink-refactor/25.png",
+            "description": "พันธสัญญา, ความสัมพันธ์, การแต่งงาน, ข้อตกลง",
+            "description_th": "พันธสัญญา, ความสัมพันธ์, การแต่งงาน, ข้อตกลง",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Book",
+            "name_th": "หนังสือ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/26.png",
+            "description": "ความลับ, การศึกษา, ข้อมูลที่ซ่อนอยู่, ความรู้",
+            "description_th": "ความลับ, การศึกษา, ข้อมูลที่ซ่อนอยู่, ความรู้",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Letter",
+            "name_th": "จดหมาย",
+            "image": "http://103.117.149.61:9000/biolink-refactor/27.png",
+            "description": "เอกสาร, การสื่อสารที่เป็นลายลักษณ์อักษร, ข่าวสารทั่วไป",
+            "description_th": "เอกสาร, การสื่อสารที่เป็นลายลักษณ์อักษร, ข่าวสารทั่วไป",
+            "category": "CAREER"
+        },
+        {
+            "name": "The Gentleman",
+            "name_th": "สุภาพบุรุษ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/28.png",
+            "description": "ตัวผู้ทำนายหรือคู่รักชาย",
+            "description_th": "ตัวผู้ทำนายหรือคู่รักชาย",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Lady",
+            "name_th": "สุภาพสตรี",
+            "image": "http://103.117.149.61:9000/biolink-refactor/29.png",
+            "description": "ตัวผู้ทำนายหรือคู่รักหญิง",
+            "description_th": "ตัวผู้ทำนายหรือคู่รักหญิง",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Lilies",
+            "name_th": "ดอกลิลลี่",
+            "image": "http://103.117.149.61:9000/biolink-refactor/30.png",
+            "description": "ความสงบสุข, ความบริสุทธิ์, ภูมิปัญญา, เรื่องทางเพศ",
+            "description_th": "ความสงบสุข, ความบริสุทธิ์, ภูมิปัญญา, เรื่องทางเพศ",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Sun",
+            "name_th": "ดวงอาทิตย์",
+            "image": "http://103.117.149.61:9000/biolink-refactor/31.png",
+            "description": "ความสำเร็จที่ยิ่งใหญ่, พลังงาน, ความสุข, ชัยชนะ",
+            "description_th": "ความสำเร็จที่ยิ่งใหญ่, พลังงาน, ความสุข, ชัยชนะ",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Moon",
+            "name_th": "พระจันทร์",
+            "image": "http://103.117.149.61:9000/biolink-refactor/32.png",
+            "description": "เกียรติยศ, ชื่อเสียง, อารมณ์, สัญชาตญาณ",
+            "description_th": "เกียรติยศ, ชื่อเสียง, อารมณ์, สัญชาตญาณ",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Key",
+            "name_th": "กุญแจ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/33.png",
+            "description": "การแก้ปัญหา, คำตอบ, ความสำคัญ, การค้นพบ",
+            "description_th": "การแก้ปัญหา, คำตอบ, ความสำคัญ, การค้นพบ",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Fish",
+            "name_th": "ปลา",
+            "image": "http://103.117.149.61:9000/biolink-refactor/34.png",
+            "description": "การเงิน, ความมั่งคั่ง, ธุรกิจ, สภาพคล่อง",
+            "description_th": "การเงิน, ความมั่งคั่ง, ธุรกิจ, สภาพคล่อง",
+            "category": "FINANCE"
+        },
+        {
+            "name": "The Anchor",
+            "name_th": "สมอเรือ",
+            "image": "http://103.117.149.61:9000/biolink-refactor/35.png",
+            "description": "ความมั่นคง, ความปลอดภัย, ความผูกพัน, ความล่าช้า",
+            "description_th": "ความมั่นคง, ความปลอดภัย, ความผูกพัน, ความล่าช้า",
+            "category": "LOVE"
+        },
+        {
+            "name": "The Cross",
+            "name_th": "ไม้กางเขน",
+            "image": "http://103.117.149.61:9000/biolink-refactor/36.png",
+            "description": "ภาระ, ความทุกข์, โชคชะตา, การเสียสละ",
+            "description_th": "ภาระ, ความทุกข์, โชคชะตา, การเสียสละ",
+            "category": "FINANCE"
+        }
+    ]
+}

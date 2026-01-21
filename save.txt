@@ -1,0 +1,16 @@
+const fortuneTeller = await prisma.fortuneTeller.create({
+  data: {
+    name: "หมอดูอ้อย",
+    character: "ใจดี เอาใจใส่",
+    imagepath: "/images/fortune1.jpg",
+    belogsToUserId: "user123",
+    categoryPricing: {
+      create: [
+        { category: "Love", price: 100, isAvailable: true },    // ดูดวงความรัก 100 บาท
+        { category: "Career", price: 200, isAvailable: true },  // ดูดวงการงาน 200 บาท
+        { category: "Finance", price: 0, isAvailable: true },   // ดูดวงการเงิน ฟรี!
+        { category: "Life", price: 150, isAvailable: false },   // ปิดให้บริการชั่วคราว
+      ]
+    }
+  }
+})

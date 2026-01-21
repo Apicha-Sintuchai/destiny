@@ -1,0 +1,231 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+enum Role {
+    ADMIN
+    VIP
+    MEMBER
+}
+
+enum ForTuneTellerCategory {
+    Love
+    Life
+    Finance
+    Career
+}
+
+enum TransactionType {
+    TOPUP
+    SUBSCRIPTION
+}
+
+enum SubscriptionStatus {
+    ACTIVE
+    EXPIRED
+}
+
+enum DeckType {
+    TARO
+    LENORMAND
+    POKER
+}
+
+model User {
+    id          String    @id @default(cuid())
+    firstname   String
+    lastname    String
+    phoneNumber String    @unique
+    password    String
+    birthday    DateTime
+    credit      Int       @default(0)
+    experience  Int       @default(0)
+    role        Role      @default(MEMBER)
+    deleted     Boolean   @default(false)
+    createdAt   DateTime  @default(now())
+    updatedAt   DateTime  @updatedAt
+    deletedAt   DateTime?
+
+    forTuneTellers      ForTuneTeller[]
+    FortuneTellerReview FortuneTellerReview[]
+    Deck                Deck[]
+    PredicionHistory    PredictionHistory[]
+    Transaction         Transaction[]
+    TopupRequest        TopupRequest[]
+    Subscription        Subscription[]
+
+    @@index([deleted])
+}
+
+model Subscription {
+    id        String             @id @default(cuid())
+    status    SubscriptionStatus @default(ACTIVE)
+    startAt   DateTime
+    expiryAt  DateTime
+    createdAt DateTime           @default(now())
+    updatedAt DateTime           @updatedAt
+
+    userId String @unique
+    user   User   @relation(fields: [userId], references: [id])
+}
+
+model ForTuneTeller {
+    id        String    @id @default(cuid())
+    name      String
+    character String
+    love      Int       @default(50)
+    life      Int       @default(50)
+    finance   Int       @default(50)
+    career    Int       @default(50)
+    deleted   Boolean   @default(false)
+    createdAt DateTime  @default(now())
+    updatedAt DateTime  @updatedAt
+    deletedAt DateTime?
+
+    mediaId String
+    media   Media  @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+    userId  String
+    user    User   @relation(fields: [userId], references: [id])
+
+    FortuneTellerReview FortuneTellerReview[]
+    PredicionHistory    PredictionHistory[]
+
+    @@index([deleted, userId])
+}
+
+model FortuneTellerReview {
+    id        String   @id @default(cuid())
+    rating    Int      @default(0)
+    message   String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    userId          String
+    user            User          @relation(fields: [userId], references: [id])
+    fortuneTellerId String
+    fortuneTeller   ForTuneTeller @relation(fields: [fortuneTellerId], references: [id], onDelete: Cascade)
+}
+
+model Deck {
+    id          String    @id @default(cuid())
+    name        String
+    description String?
+    type        DeckType  @default(TARO)
+    love        Int       @default(50)
+    life        Int       @default(50)
+    finance     Int       @default(50)
+    career      Int       @default(50)
+    deleted     Boolean   @default(false)
+    createdAt   DateTime  @default(now())
+    updatedAt   DateTime  @updatedAt
+    deletedAt   DateTime?
+
+    userId String
+    user   User   @relation(fields: [userId], references: [id])
+
+    cards            DeckCard[]
+    PredicionHistory PredictionHistory[]
+
+    @@index([deleted, userId])
+}
+
+model DeckCard {
+    id          String   @id @default(cuid())
+    name        String
+    nickName    String?
+    description String
+    createdAt   DateTime @default(now())
+    updatedAt   DateTime @updatedAt
+
+    mediaId String
+    media   Media  @relation(fields: [mediaId], references: [id], onDelete: Cascade)
+    deckId  String
+    deck    Deck   @relation(fields: [deckId], references: [id])
+}
+
+model Media {
+    id         String   @id @default(cuid())
+    bucket     String
+    objectName String
+    createdAt  DateTime @default(now())
+
+    ForTuneTeller ForTuneTeller[]
+    DeckCard      DeckCard[]
+}
+
+model PredictionHistory {
+    id         String @id @default(cuid())
+    prompt     String
+    response   Json
+    experience Int
+
+    userId          String
+    user            User          @relation(fields: [userId], references: [id])
+    fortuneTellerId String
+    fortuneTeller   ForTuneTeller @relation(fields: [fortuneTellerId], references: [id])
+    deckId          String
+    deck            Deck          @relation(fields: [deckId], references: [id])
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@index([userId, fortuneTellerId])
+}
+
+model Transaction {
+    id        String          @id @default(uuid())
+    type      TransactionType
+    amount    Float
+    createdAt DateTime        @default(now())
+    updatedAt DateTime        @updatedAt
+    deletedAt DateTime?
+
+    userId String
+    User   User   @relation(fields: [userId], references: [id])
+
+    TopupRequest TopupRequest?
+}
+
+model TopupRequest {
+    id        String    @id @default(uuid())
+    amount    Float
+    code      String    @unique
+    createdAt DateTime  @default(now())
+    updatedAt DateTime  @updatedAt
+    deletedAt DateTime?
+    userId    String
+    User      User      @relation(fields: [userId], references: [id])
+
+    transactionId String      @unique
+    Transaction   Transaction @relation(fields: [transactionId], references: [id])
+
+    accountTopupId String
+    AccountTopup   AccountTopup @relation(fields: [accountTopupId], references: [id])
+}
+
+model AccountTopup {
+    id                String @id @default(uuid())
+    promptpay_account String @default("")
+    promptpay_name    String @default("")
+    bank_name         String @default("")
+    bank_account      String @default("")
+    bank_account_name String @default("")
+
+    TopupRequests TopupRequest[]
+}
+
+model Setting {
+    id        String   @id @default(cuid())
+    name      String   @unique
+    value     String
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+}

@@ -1,0 +1,423 @@
+{
+    "poker": [
+        {
+            "name": "A♣",
+            "name_th": "A♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_ace_of_clubs.svg.png",
+            "description": "การเริ่มต้นงานใหม่ / โครงการใหม่ / ข่าวดีด้านงาน",
+            "description_th": "การเริ่มต้นงานใหม่ โครงการใหม่ ข่าวดีด้านงาน",
+            "category": "CAREER"
+        },
+        {
+            "name": "2♣",
+            "name_th": "2♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_2_of_clubs.svg.png",
+            "description": "การเจรจา นัดหมาย สัญญา",
+            "description_th": "การเจรจา นัดหมาย สัญญา",
+            "category": "CAREER"
+        },
+        {
+            "name": "3♣",
+            "name_th": "3♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_3_of_clubs.svg.png",
+            "description": "งานเริ่มติดขัด ต้องแก้ปัญหาเฉพาะหน้า",
+            "description_th": "งานเริ่มติดขัด ต้องแก้ปัญหาเฉพาะหน้า",
+            "category": "CAREER"
+        },
+        {
+            "name": "4♣",
+            "name_th": "4♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_4_of_clubs.svg.png",
+            "description": "ความมั่นคงเรื่องงาน ความเป็นระบบ",
+            "description_th": "ความมั่นคงเรื่องงาน ความเป็นระบบ",
+            "category": "CAREER"
+        },
+        {
+            "name": "5♣",
+            "name_th": "5♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_5_of_clubs.svg.png",
+            "description": "การแข่งขัน ปัญหาในทีม",
+            "description_th": "การแข่งขัน ปัญหาในทีม",
+            "category": "CAREER"
+        },
+        {
+            "name": "6♣",
+            "name_th": "6♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_6_of_clubs.svg.png",
+            "description": "ความสำเร็จทีละขั้น มีคนช่วยสนับสนุน",
+            "description_th": "ความสำเร็จทีละขั้น มีคนช่วยสนับสนุน",
+            "category": "CAREER"
+        },
+        {
+            "name": "7♣",
+            "name_th": "7♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_7_of_clubs.svg.png",
+            "description": "ระวังงานล่าช้า ถูกตำหนิ",
+            "description_th": "ระวังงานล่าช้า ถูกตำหนิ",
+            "category": "CAREER"
+        },
+        {
+            "name": "8♣",
+            "name_th": "8♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_8_of_clubs.svg.png",
+            "description": "การงานที่ต้องเดินทาง ติดต่อบ่อย",
+            "description_th": "การงานที่ต้องเดินทาง ติดต่อบ่อย",
+            "category": "CAREER"
+        },
+        {
+            "name": "9♣",
+            "name_th": "9♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_9_of_clubs.svg.png",
+            "description": "งานหนัก เครียด เหนื่อย แต่ยังต้องทำ",
+            "description_th": "งานหนัก เครียด เหนื่อย แต่ยังต้องทำ",
+            "category": "CAREER"
+        },
+        {
+            "name": "10♣",
+            "name_th": "10♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_10_of_clubs.svg.png",
+            "description": "ความสำเร็จใหญ่ งานเยอะ รายได้เพิ่ม",
+            "description_th": "ความสำเร็จใหญ่ งานเยอะ รายได้เพิ่ม",
+            "category": "CAREER"
+        },
+        {
+            "name": "J♣",
+            "name_th": "J♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_jack_of_clubs.svg.png",
+            "description": "ผู้ชายอายุน้อย / เพื่อนร่วมงาน / ลูกน้อง",
+            "description_th": "ผู้ชายอายุน้อย เพื่อนร่วมงาน ลูกน้อง",
+            "category": "CAREER"
+        },
+        {
+            "name": "Q♣",
+            "name_th": "Q♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_queen_of_clubs.svg.png",
+            "description": "ผู้หญิงขยัน ฉลาด มีไหวพริบ เข้าช่วยเหลือ",
+            "description_th": "ผู้หญิงขยัน ฉลาด มีไหวพริบ เข้าช่วยเหลือ",
+            "category": "CAREER"
+        },
+        {
+            "name": "K♣",
+            "name_th": "K♣",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_king_of_clubs.svg.png",
+            "description": "ผู้ใหญ่ช่วยเกื้อหนุน เจ้านายเมตตา",
+            "description_th": "ผู้ใหญ่ช่วยเกื้อหนุน เจ้านายเมตตา",
+            "category": "CAREER"
+        },
+
+        {
+            "name": "A♥",
+            "name_th": "A♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_ace_of_hearts.svg.png",
+            "description": "ความรักเริ่มต้นใหม่ ความรู้สึกดี",
+            "description_th": "ความรักเริ่มต้นใหม่ ความรู้สึกดี",
+            "category": "LOVE"
+        },
+        {
+            "name": "2♥",
+            "name_th": "2♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_2_of_hearts.svg.png",
+            "description": "ความสัมพันธ์ลงตัว คู่แท้",
+            "description_th": "ความสัมพันธ์ลงตัว คู่แท้",
+            "category": "LOVE"
+        },
+        {
+            "name": "3♥",
+            "name_th": "3♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_3_of_hearts.svg.png",
+            "description": "รักสามเส้า หรือมีคนเข้ามาพร้อมกัน",
+            "description_th": "รักสามเส้า หรือมีคนเข้ามาพร้อมกัน",
+            "category": "LOVE"
+        },
+        {
+            "name": "4♥",
+            "name_th": "4♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_4_of_hearts.svg.png",
+            "description": "ความรักมั่นคง มีความสุข",
+            "description_th": "ความรักมั่นคง มีความสุข",
+            "category": "LOVE"
+        },
+        {
+            "name": "5♥",
+            "name_th": "5♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_5_of_hearts.svg.png",
+            "description": "ความเสียใจ ผิดหวัง ทะเลาะ",
+            "description_th": "ความเสียใจ ผิดหวัง ทะเลาะ",
+            "category": "LOVE"
+        },
+        {
+            "name": "6♥",
+            "name_th": "6♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_6_of_hearts.svg.png",
+            "description": "ความรักเก่า คนรักเก่าจะกลับมา",
+            "description_th": "ความรักเก่า คนรักเก่าจะกลับมา",
+            "category": "LOVE"
+        },
+        {
+            "name": "7♥",
+            "name_th": "7♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_7_of_hearts.svg.png",
+            "description": "ความลังเล ไม่มั่นใจ",
+            "description_th": "ความลังเล ไม่มั่นใจ",
+            "category": "LOVE"
+        },
+        {
+            "name": "8♥",
+            "name_th": "8♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_8_of_hearts.svg.png",
+            "description": "ความรักที่มีระยะห่าง หรือเดินทางไปหา",
+            "description_th": "ความรักที่มีระยะห่าง หรือเดินทางไปหา",
+            "category": "LOVE"
+        },
+        {
+            "name": "9♥",
+            "name_th": "9♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_9_of_hearts.svg.png",
+            "description": "ความสุขสมหวัง ความรักลงตัว",
+            "description_th": "ความสุขสมหวัง ความรักลงตัว",
+            "category": "LOVE"
+        },
+        {
+            "name": "10♥",
+            "name_th": "10♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_10_of_hearts.svg.png",
+            "description": "แต่งงาน ครอบครัว ความสุขสูงสุด",
+            "description_th": "แต่งงาน ครอบครัว ความสุขสูงสุด",
+            "category": "LOVE"
+        },
+        {
+            "name": "J♥",
+            "name_th": "J♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_jack_of_hearts.svg.png",
+            "description": "หนุ่มอารมณ์ดี เจ้าชู้เล็กน้อย",
+            "description_th": "หนุ่มอารมณ์ดี เจ้าชู้เล็กน้อย",
+            "category": "LOVE"
+        },
+        {
+            "name": "Q♥",
+            "name_th": "Q♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_queen_of_hearts.svg.png",
+            "description": "ผู้หญิงใจดี รักจริง อบอุ่น",
+            "description_th": "ผู้หญิงใจดี รักจริง อบอุ่น",
+            "category": "LOVE"
+        },
+        {
+            "name": "K♥",
+            "name_th": "K♥",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_king_of_hearts.svg.png",
+            "description": "ผู้ชายที่รักจริง ทุ่มเท",
+            "description_th": "ผู้ชายที่รักจริง ทุ่มเท",
+            "category": "LOVE"
+        },
+
+        {
+            "name": "A♦",
+            "name_th": "A♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_ace_of_diamonds.svg.png",
+            "description": "เงินตั้งต้น ดีลใหม่ งานได้เงิน",
+            "description_th": "เงินตั้งต้น ดีลใหม่ งานได้เงิน",
+            "category": "FINANCE"
+        },
+        {
+            "name": "2♦",
+            "name_th": "2♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_2_of_diamonds.svg.png",
+            "description": "เงินจากงานเสริม การโอน/สัญญา",
+            "description_th": "เงินจากงานเสริม การโอนหรือสัญญา",
+            "category": "FINANCE"
+        },
+        {
+            "name": "3♦",
+            "name_th": "3♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_3_of_diamonds.svg.png",
+            "description": "เงินช้า หรือต้องแบ่งจ่าย",
+            "description_th": "เงินช้า หรือต้องแบ่งจ่าย",
+            "category": "FINANCE"
+        },
+        {
+            "name": "4♦",
+            "name_th": "4♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_4_of_diamonds.svg.png",
+            "description": "เก็บเงิน มั่นคง การออม",
+            "description_th": "เก็บเงิน มั่นคง การออม",
+            "category": "FINANCE"
+        },
+        {
+            "name": "5♦",
+            "name_th": "5♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_5_of_diamonds.svg.png",
+            "description": "เสียเงิน เก็บไม่อยู่ ระวังรั่วไหล",
+            "description_th": "เสียเงิน เก็บไม่อยู่ ระวังรั่วไหล",
+            "category": "FINANCE"
+        },
+        {
+            "name": "6♦",
+            "name_th": "6♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_6_of_diamonds.svg.png",
+            "description": "ได้เงินจากผู้ใหญ่ หรือมีคนช่วย",
+            "description_th": "ได้เงินจากผู้ใหญ่ หรือมีคนช่วย",
+            "category": "FINANCE"
+        },
+        {
+            "name": "7♦",
+            "name_th": "7♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_7_of_diamonds.svg.png",
+            "description": "เสี่ยงดวง โชคเล็กๆ",
+            "description_th": "เสี่ยงดวง โชคเล็กน้อย",
+            "category": "FINANCE"
+        },
+        {
+            "name": "8♦",
+            "name_th": "8♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_8_of_diamonds.svg.png",
+            "description": "เงินจากการเดินทาง/ค้าขาย",
+            "description_th": "เงินจากการเดินทางหรือค้าขาย",
+            "category": "FINANCE"
+        },
+        {
+            "name": "9♦",
+            "name_th": "9♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_9_of_diamonds.svg.png",
+            "description": "เงินก้อนใหญ่ ใกล้เข้ามา",
+            "description_th": "เงินก้อนใหญ่ ใกล้เข้ามา",
+            "category": "FINANCE"
+        },
+        {
+            "name": "10♦",
+            "name_th": "10♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_10_of_diamonds.svg.png",
+            "description": "ความมั่งคั่ง การเงินดีมาก",
+            "description_th": "ความมั่งคั่ง การเงินดีมาก",
+            "category": "FINANCE"
+        },
+        {
+            "name": "J♦",
+            "name_th": "J♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_jack_of_diamonds.svg.png",
+            "description": "หนุ่มรักเงิน เก่งการเงิน",
+            "description_th": "หนุ่มรักเงิน เก่งการเงิน",
+            "category": "FINANCE"
+        },
+        {
+            "name": "Q♦",
+            "name_th": "Q♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_queen_of_diamonds.svg.png",
+            "description": "ผู้หญิงเก่ง ค้าขาย ทำเงินดี",
+            "description_th": "ผู้หญิงเก่ง ค้าขาย ทำเงินดี",
+            "category": "FINANCE"
+        },
+        {
+            "name": "K♦",
+            "name_th": "K♦",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_king_of_diamonds.svg.png",
+            "description": "ผู้ใหญ่ที่ให้งาน/เงิน โชคลาภใหญ่",
+            "description_th": "ผู้ใหญ่ที่ให้งานหรือเงิน โชคลาภใหญ่",
+            "category": "FINANCE"
+        },
+
+        {
+            "name": "A♠",
+            "name_th": "A♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_ace_of_spades.svg.png",
+            "description": "เรื่องหนักใจใหญ่ เริ่มต้นยาก",
+            "description_th": "เรื่องหนักใจใหญ่ เริ่มต้นยาก",
+            "category": "LIFE"
+        },
+        {
+            "name": "2♠",
+            "name_th": "2♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_2_of_spades.svg.png",
+            "description": "ความลังเล ตัดสินใจยาก",
+            "description_th": "ความลังเล ตัดสินใจยาก",
+            "category": "LIFE"
+        },
+        {
+            "name": "3♠",
+            "name_th": "3♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_3_of_spades.svg.png",
+            "description": "แตกแยก เลิกรา ผิดหวัง",
+            "description_th": "แตกแยก เลิกรา ผิดหวัง",
+            "category": "LIFE"
+        },
+        {
+            "name": "4♠",
+            "name_th": "4♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_4_of_spades.svg.png",
+            "description": "พักงาน นิ่ง ไม่คืบหน้า",
+            "description_th": "พักงาน นิ่ง ไม่คืบหน้า",
+            "category": "LIFE"
+        },
+        {
+            "name": "5♠",
+            "name_th": "5♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_5_of_spades.svg.png",
+            "description": "ปัญหาหนัก ระวังการขัดแย้ง",
+            "description_th": "ปัญหาหนัก ระวังการขัดแย้ง",
+            "category": "LIFE"
+        },
+        {
+            "name": "6♠",
+            "name_th": "6♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_6_of_spades.svg.png",
+            "description": "การเดินทางหนีปัญหา เปลี่ยนงาน",
+            "description_th": "การเดินทางหนีปัญหา เปลี่ยนงาน",
+            "category": "LIFE"
+        },
+        {
+            "name": "7♠",
+            "name_th": "7♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_7_of_spades.svg.png",
+            "description": "ถูกโกง ถูกหลอก ระวังโดนเอาเปรียบ",
+            "description_th": "ถูกโกง ถูกหลอก ระวังโดนเอาเปรียบ",
+            "category": "LIFE"
+        },
+        {
+            "name": "8♠",
+            "name_th": "8♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_8_of_spades.svg.png",
+            "description": "คิดมาก เครียด ฟุ้งซ่าน",
+            "description_th": "คิดมาก เครียด ฟุ้งซ่าน",
+            "category": "LIFE"
+        },
+        {
+            "name": "9♠",
+            "name_th": "9♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_9_of_spades.svg.png",
+            "description": "เจ็บใจ ร้องไห้ จบไม่สวย",
+            "description_th": "เจ็บใจ ร้องไห้ จบไม่สวย",
+            "category": "LIFE"
+        },
+        {
+            "name": "10♠",
+            "name_th": "10♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_10_of_spades.svg.png",
+            "description": "วิกฤตใหญ่ จุดสิ้นสุด ต้องเริ่มใหม่",
+            "description_th": "วิกฤตใหญ่ จุดสิ้นสุด ต้องเริ่มใหม่",
+            "category": "LIFE"
+        },
+        {
+            "name": "J♠",
+            "name_th": "J♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_jack_of_spades.svg.png",
+            "description": "คนไม่น่าไว้ใจ เด็กมีปัญหา",
+            "description_th": "คนไม่น่าไว้ใจ เด็กมีปัญหา",
+            "category": "LIFE"
+        },
+        {
+            "name": "Q♠",
+            "name_th": "Q♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_queen_of_spades.svg.png",
+            "description": "ผู้หญิงขี้อิจฉา ตัวปัญหา",
+            "description_th": "ผู้หญิงขี้อิจฉา ตัวปัญหา",
+            "category": "LIFE"
+        },
+        {
+            "name": "K♠",
+            "name_th": "K♠",
+            "image": "http://103.117.149.61:9000/biolink-refactor/English_pattern_king_of_spades.svg.png",
+            "description": "ผู้ชายดุ อำนาจจัด ควบคุม",
+            "description_th": "ผู้ชายดุ อำนาจจัด ควบคุม",
+            "category": "LIFE"
+        }
+    ]
+}

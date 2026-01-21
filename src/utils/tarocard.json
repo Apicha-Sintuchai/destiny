@@ -1,0 +1,615 @@
+{
+    "taro": {
+        "Major Arcana": [
+            {
+                "name": "The Fool",
+                "name_th": "คนโง่",
+                "image": "https://i.pinimg.com/1200x/b4/06/32/b40632c82d8bdc9c0882850dc714c5ce.jpg",
+                "description": "The card of new beginnings, risk-taking, and innocence, representing unlimited potentials and a spontaneous journey into the unknown.",
+                "description_th": "ไพ่แห่งการเริ่มต้นใหม่ การเสี่ยง และความบริสุทธิ์ใจ หมายถึงศักยภาพที่ไร้ขีดจำกัดและการเดินทางสู่สิ่งที่ไม่รู้จักอย่างเป็นธรรมชาติ",
+                "category": "LIFE"
+            },
+            {
+                "name": "The Magician",
+                "name_th": "นักมายากล",
+                "image": "https://i.pinimg.com/736x/21/db/df/21dbdfcea210af9805b35ee0346fb4c7.jpg",
+                "description": "The force that allows us to impact the world through individual will and power, reminding us of the magic within to tap into full potential and achieve anything we set our mind to.",
+                "description_th": "พลังที่ช่วยให้เราสร้างผลกระทบต่อโลกผ่านเจตจำนงและพลังส่วนบุคคล เตือนเราถึงเวทมนตร์ภายในที่จะใช้ศักยภาพเต็มที่และบรรลุทุกสิ่งที่ตั้งใจ",
+                "category": "LIFE,CAREER"
+            },
+            {
+                "name": "The High Priestess",
+                "name_th": "นักบวชหญิงผู้สูงศักดิ์",
+                "image": "https://i.pinimg.com/736x/8b/6f/37/8b6f375b600d387d77832d78d0db7de3.jpg",
+                "description": "Represents sexuality, mystery, and higher power, encouraging reflection and intuition over intellect to uncover unrealized potential and make decisions from within.",
+                "description_th": "หมายถึงเรื่องเพศ ความลึกลับ และพลังเหนือธรรมชาติ ส่งเสริมการไตร่ตรองและสัญชาตญาณมากกว่าสติปัญญา เพื่อค้นพบศักยภาพที่ยังไม่เปิดเผยและตัดสินใจจากภายใน",
+                "category": "LIFE"
+            },
+            {
+                "name": "The Empress",
+                "name_th": "จักรพรรดินี",
+                "image": "https://i.pinimg.com/736x/6f/7a/21/6f7a217f6df31abb50fbca0dd63b3ac9.jpg",
+                "description": "The mother archetype associated with harmony, maternal influence, and abundance, calling on us to connect with creativity, sensuality, fertility, and nurturing for deep satisfaction.",
+                "description_th": "แม่พิมพ์แม่ที่เชื่อมโยงกับความกลมกลืน อิทธิพลของมารดา และความอุดมสมบูรณ์ เรียกร้องให้เราเชื่อมโยงกับความคิดสร้างสรรค์ ความรู้สึก ความอุดมสมบูรณ์ และการดูแลเลี้ยงดูเพื่อความพึงพอใจอย่างลึกซึ้ง",
+                "category": "LOVE,FINANCE"
+            },
+            {
+                "name": "The Emperor",
+                "name_th": "จักรพรรดิ",
+                "image": "https://i.pinimg.com/736x/d1/a3/b8/d1a3b8b4e3e7989012d8bc17c3dc62c4.jpg",
+                "description": "Symbolizes masculinity, structure, rules, and authority, urging methodical pursuit of goals with control, organization, and strategic direction.",
+                "description_th": "สัญลักษณ์ของความเป็นชาย โครงสร้าง กฎเกณฑ์ และอำนาจ กระตุ้นให้แสวงหาเป้าหมายอย่างเป็นระบบด้วยการควบคุม การจัดการ และทิศทางเชิงกลยุทธ์",
+                "category": "CAREER,FINANCE"
+            },
+            {
+                "name": "The Hierophant",
+                "name_th": "นักบวชผู้สูงศักดิ์",
+                "image": "https://i.pinimg.com/736x/88/d6/79/88d679e9080db536708d5c48b2fa591f.jpg",
+                "description": "Symbolizes traditional values, ethics, religion, and spirituality, encouraging embrace of conventions and established traditions over unorthodox methods.",
+                "description_th": "สัญลักษณ์ของคุณค่าดั้งเดิม จริยธรรม ศาสนา และจิตวิญญาณ ส่งเสริมให้ยอมรับประเพณีและขนบธรรมเนียมที่ตั้งไว้มากกว่าวิธีการที่ไม่เป็นทางการ",
+                "category": "LOVE,CAREER"
+            },
+            {
+                "name": "The Lovers",
+                "name_th": "คู่รัก",
+                "image": "https://i.pinimg.com/736x/b6/9e/51/b69e51f77adc315c02ad6737ca0260bd.jpg",
+                "description": "Focuses on love, relationships, soulmates, and major choices, helping clarify values for harmony and intimacy while gathering information before deciding.",
+                "description_th": "มุ่งเน้นไปที่ความรัก ความสัมพันธ์ เนื้อคู่ และการตัดสินใจสำคัญ ช่วยทำให้คุณค่าชัดเจนเพื่อความกลมกลืนและความใกล้ชิด พร้อมรวบรวมข้อมูลก่อนตัดสินใจ",
+                "category": "LOVE"
+            },
+            {
+                "name": "The Chariot",
+                "name_th": "รถม้า",
+                "image": "https://i.pinimg.com/736x/30/77/9c/30779c92ea021196170e003a9132a770.jpg",
+                "description": "Stands for power, triumph, action, and determination, requiring focused energy and willpower to command direction and overcome obstacles.",
+                "description_th": "หมายถึงอำนาจ ชัยชนะ การกระทำ และความมุ่งมั่น ต้องการพลังและความตั้งใจที่มุ่งเน้นเพื่อควบคุมทิศทางและเอาชนะอุปสรรค",
+                "category": "CAREER"
+            },
+            {
+                "name": "Strength",
+                "name_th": "ความเข้มแข็ง",
+                "image": "https://i.pinimg.com/736x/b8/98/82/b89882e3385732c93e663ea4189bf9d1.jpg",
+                "description": "Represents stamina, patience, and inner strength, illustrating how gentleness and self-control can tame raw emotions and conquer challenges with sensitivity.",
+                "description_th": "หมายถึงความอดทน ความอดกลั้น และพลังภายใน แสดงให้เห็นว่าความอ่อนโยนและการควบคุมตนเองสามารถควบคุมอารมณ์ดิบและเอาชนะความท้าทายด้วยความละเอียดอ่อน",
+                "category": "LOVE,CAREER"
+            },
+            {
+                "name": "The Hermit",
+                "name_th": "นักบวชผู้โดดเดี่ยว",
+                "image": "https://i.pinimg.com/736x/81/d0/83/81d083e2b690ea450998823c81085aa9.jpg",
+                "description": "Symbolizes seeking innermost knowledge and wisdom, taking back personal power by living authentically and retreating for reflection and personal growth.",
+                "description_th": "สัญลักษณ์ของการแสวงหาความรู้และภูมิปัญญาภายในที่ลึกที่สุด นำพลังส่วนตัวกลับคืนมาด้วยการใช้ชีวิตอย่างแท้จริงและถอยร่นเพื่อไตร่ตรองและพัฒนาตนเอง",
+                "category": "LIFE"
+            },
+            {
+                "name": "Wheel of Fortune",
+                "name_th": "วงล้อแห่งโชคชาตา",
+                "image": "https://i.pinimg.com/736x/7e/52/9f/7e529f0b702b46f623e2701937f086ec.jpg",
+                "description": "Represents destiny, fate, and unexpected twists, indicating equal good and bad times with hope for improvement and remembrance of positive experiences.",
+                "description_th": "หมายถึงโชคชะตา ความโชคร้ายโชคดี และการพลิกผันที่ไม่คาดคิด บ่งบอกถึงช่วงเวลาดีและเลวที่เท่ากัน พร้อมความหวังในการปรับปรุงและการระลึกถึงประสบการณ์เชิงบวก",
+                "category": "LIFE,CAREER,FINANCE"
+            },
+            {
+                "name": "Justice",
+                "name_th": "ความยุติธรรม",
+                "image": "https://i.pinimg.com/736x/7a/12/7f/7a127fe5e77797658de9ecb3797d3e3f.jpg",
+                "description": "Focuses on justice, cause and effect, and balance, ensuring fair decisions are made to restore equilibrium and right wrongs.",
+                "description_th": "มุ่งเน้นที่ความยุติธรรม เหตุและผล และความสมดุล รับรองว่าการตัดสินใจที่เป็นธรรมถูกสร้างขึ้นเพื่อฟื้นฟูสมดุลและแก้ไขสิ่งที่ผิด",
+                "category": "LOVE,CAREER,FINANCE"
+            },
+            {
+                "name": "The Hanged Man",
+                "name_th": "ชายผู้ถูกแขวนคอ",
+                "image": "https://i.pinimg.com/736x/c0/52/e3/c052e386e7941642efddf100f78994d1.jpg",
+                "description": "Represents being stuck, sacrifice, and acceptance, requiring letting go and stillness for perspective shift and progress toward the greater good.",
+                "description_th": "หมายถึงการติดอยู่ การเสียสละ และการยอมรับ ต้องการการปล่อยวางและความนิ่งสงบเพื่อเปลี่ยนมุมมองและก้าวหน้าสู่สิ่งที่ดีกว่า"
+            },
+            {
+                "name": "Death",
+                "name_th": "ความตาย",
+                "image": "https://i.pinimg.com/736x/fe/3e/a5/fe3ea517572696eea497f4d975ff04c0.jpg",
+                "description": "Symbolizes endings, transitions, and completion of chapters, welcoming the removal of what no longer serves to make way for new beginnings.",
+                "description_th": "สัญลักษณ์ของการสิ้นสุด การเปลี่ยนผ่าน และการจบบท ต้อนรับการกำจัดสิ่งที่ไม่มีประโยชน์อีกต่อไปเพื่อเปิดทางให้กับการเริ่มต้นใหม่",
+                "category": "LIFE"
+            },
+            {
+                "name": "Temperance",
+                "name_th": "ความพอประมาณ",
+                "image": "https://i.pinimg.com/736x/98/9a/56/989a563cf5a3f22334678cd23975755b.jpg",
+                "description": "Represents balance, harmony, and equilibrium, achieved through patience, persistence, and proper proportions to unify opposites.",
+                "description_th": "หมายถึงความสมดุล ความกลมกลืน และสมดุลย์ บรรลุผ่านความอดทน ความมุ่งมั่น และสัดส่วนที่เหมาะสมเพื่อรวมสิ่งที่ตรงกันข้าม",
+                "category": "LIFE,CAREER"
+            },
+            {
+                "name": "The Devil",
+                "name_th": "ปีศาจ",
+                "image": "https://i.pinimg.com/736x/2c/54/23/2c5423dd0e4e53eb8cb71b480a344909.jpg",
+                "description": "Embodies deepest desires, illusions, and addictions, redirecting attention from material satisfactions to what truly matters for freedom and transcendence.",
+                "description_th": "รวบรวมความปรารถนาที่ลึกที่สุด ภาพลวงตา และการติดยึด นำความสนใจจากความพึงพอใจทางวัตถุไปสู่สิ่งที่สำคัญจริงๆ เพื่ออิสรภาพและการก้าวข้ามขีดจำกัด",
+                "category": "LIFE"
+            },
+            {
+                "name": "The Tower",
+                "name_th": "หอคอย",
+                "image": "https://i.pinimg.com/736x/83/63/a2/8363a2f187763781f6a7675158a29750.jpg",
+                "description": "Symbolizes destruction, tragedy, and letting go of illusions, facing truth for painful change leading to a fresh start and positive rebuilding.",
+                "description_th": "สัญลักษณ์ของการทำลาย โศกนาฏกรรม และการปล่อยวางภาพลวงตา เผชิญหน้ากับความจริงเพื่อการเปลี่ยนแปลงที่เจ็บปวดซึ่งนำไปสู่การเริ่มต้นใหม่และการสร้างใหม่เชิงบวก",
+                "category": "LIFE"
+            },
+            {
+                "name": "The Star",
+                "name_th": "ดวงดาว",
+                "image": "https://i.pinimg.com/736x/ba/35/69/ba3569901646d47a26b1b10e5c9e1397.jpg",
+                "description": "Stands for optimism, positivity, hope, and inner strength, encouraging faith in future blessings and following one's guiding insights.",
+                "description_th": "หมายถึงการมองโลกในแง่ดี ความเป็นบวก ความหวัง และพลังภายใน ส่งเสริมศรัทธาในพรแห่งอนาคตและการติดตามข้อมูลเชิงลึกที่เป็นแนวทาง",
+                "category": "LIFE,LOVE"
+            },
+            {
+                "name": "The Moon",
+                "name_th": "ดวงจันทร์",
+                "image": "https://i.pinimg.com/736x/76/e2/d4/76e2d494071242a221e5ea867c8de289.jpg",
+                "description": "Symbolizes anxiety, confusion, fear, and delusion, cautioning against accepting appearances and urging deeper exploration to illuminate fallacies.",
+                "description_th": "สัญลักษณ์ของความวิตกกังวล ความสับสน ความกลัว และภาพหลอน เตือนไม่ให้ยอมรับสิ่งที่ปรากฏและกระตุ้นให้สำรวจลึกลงไปเพื่อเปิดเผยความเข้าใจผิด",
+                "category": "LIFE,LOVE"
+            },
+            {
+                "name": "The Sun",
+                "name_th": "ดวงอาทิตย์",
+                "image": "https://i.pinimg.com/736x/ab/5d/0b/ab5d0b9d085e81181613f0a41679dac7.jpg",
+                "description": "Represents success, truth, optimism, and fulfillment, promoting positivity and movement forward as hard times improve with inner light.",
+                "description_th": "หมายถึงความสำเร็จ ความจริง การมองโลกในแง่ดี และความสมหวัง ส่งเสริมความคิดบวกและการก้าวไปข้างหน้าเมื่อเวลาที่ยากลำบากดีขึ้นด้วยแสงสว่างภายใน",
+                "category": "LIFE,LOVE"
+            },
+            {
+                "name": "Judgement",
+                "name_th": "การพิพากษา",
+                "image": "https://i.pinimg.com/736x/35/ec/c3/35ecc3319a6a1e222d186416de3700fe.jpg",
+                "description": "Stands for reflection, evaluation, and rebirth, promoting introspection to align actions with values for clarity and positive progression.",
+                "description_th": "หมายถึงการไตร่ตรอง การประเมินผล และการเกิดใหม่ ส่งเสริมการมองภายในเพื่อปรับการกระทำให้สอดคล้องกับคุณค่าเพื่อความชัดเจนและความก้าวหน้าเชิงบวก",
+                "category": "LIFE"
+            },
+            {
+                "name": "The World",
+                "name_th": "โลก",
+                "image": "https://i.pinimg.com/736x/86/a1/c7/86a1c76112a368304074ff63891ccc1c.jpg",
+                "description": "Symbolizes completion, harmony, fulfillment, and unity, indicating achievement of goals and flourishing after perseverance through difficulties.",
+                "description_th": "สัญลักษณ์ของความสมบูรณ์ ความกลมกลืน ความสมหวัง และความเป็นหนึ่งเดียว บ่งบอกถึงความสำเร็จของเป้าหมายและการเจริญรุ่งเรืองหลังจากผ่านความยากลำบากมา",
+                "category": "LIFE,LOVE,CAREER"
+            }
+        ],
+        "Minor Arcana": {
+            "coincard": [
+                {
+                    "name": "Ace of Pentacles",
+                    "name_th": "เอซเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/fc/47/4a/fc474a31bab09514f11629eba36faab5.jpg",
+                    "description": "Represents new financial opportunities, prosperity, and material beginnings, grounding ideas into tangible reality.",
+                    "description_th": "หมายถึงโอกาสทางการเงินใหม่ ความเจริญรุ่งเรือง และการเริ่มต้นด้านวัตถุ นำความคิดมาสู่ความเป็นจริงที่จับต้องได้",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "Two of Pentacles",
+                    "name_th": "สองเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/fe/41/10/fe41105e3789d73aa687b5ac35bc8fe3.jpg",
+                    "description": "Symbolizes balance, adaptability, and juggling priorities, managing multiple demands with flexibility.",
+                    "description_th": "สัญลักษณ์ของความสมดุล การปรับตัว และการจัดการความสำคัญหลายอย่าง จัดการกับความต้องการหลายๆ อย่างด้วยความยืดหยุ่น",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "Three of Pentacles",
+                    "name_th": "สามเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/b5/87/ed/b587edce67c1918d57556a337a7bdea6.jpg",
+                    "description": "Represents teamwork, craftsmanship, and collaboration, building skills and receiving recognition for efforts.",
+                    "description_th": "หมายถึงการทำงานเป็นทีม ฝีมือ และความร่วมมือ สร้างทักษะและได้รับการยอมรับจากความพยายาม",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "Four of Pentacles",
+                    "name_th": "สี่เหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/06/1a/7c/061a7cc228d16905567c8e749a1bb68e.jpg",
+                    "description": "Symbolizes security, possession, and stability, cautioning against greed and over-attachment to material wealth.",
+                    "description_th": "สัญลักษณ์ของความมั่นคง การครอบครอง และเสถียรภาพ เตือนเกี่ยวกับความโลภและความยึดติดกับทรัพย์สินมากเกินไป",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "Five of Pentacles",
+                    "name_th": "ห้าเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/6a/1d/40/6a1d40519e28ae6fb4c88feb6768a65b.jpg",
+                    "description": "Represents hardship, poverty, and isolation, indicating challenges but potential for aid and recovery.",
+                    "description_th": "หมายถึงความยากลำบาก ความยากจน และความโดดเดี่ยว บ่งบอกถึงความท้าทายแต่มีศักยภาพในการได้รับความช่วยเหลือและการฟื้นตัว"
+                },
+                {
+                    "name": "Six of Pentacles",
+                    "name_th": "หกเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/2b/a1/35/2ba13563b4f8994b5168182e8dbcc064.jpg",
+                    "description": "Symbolizes generosity, charity, and balance in giving/receiving, promoting fair exchange and support.",
+                    "description_th": "สัญลักษณ์ของความเอื้อเฟื้อ การกุศล และความสมดุลในการให้และรับ ส่งเสริมการแลกเปลี่ยนที่เป็นธรรมและการสนับสนุน",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "Seven of Pentacles",
+                    "name_th": "เจ็ดเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/3b/6a/62/3b6a62b7309c5991721c1230210a27ab.jpg",
+                    "description": "Represents patience, investment, and assessment, evaluating long-term growth and efforts for future rewards.",
+                    "description_th": "หมายถึงความอดทน การลงทุน และการประเมิน ประเมินการเติบโตระยะยาวและความพยายามเพื่อผลตอบแทนในอนาคต"
+                },
+                {
+                    "name": "Eight of Pentacles",
+                    "name_th": "แปดเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/b5/97/53/b597534687704681ea6c14c0d61378b9.jpg",
+                    "description": "Symbolizes diligence, skill development, and craftsmanship, focusing on dedication to mastery and improvement.",
+                    "description_th": "สัญลักษณ์ของความขยันหมั่นเพียร การพัฒนาทักษะ และฝีมือ มุ่งเน้นไปที่การอุทิศตนเพื่อความเชี่ยวชาญและการปรับปรุง"
+                },
+                {
+                    "name": "Nine of Pentacles",
+                    "name_th": "เก้าเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/7b/39/d9/7b39d9042ef5b088cc2719a051263129.jpg",
+                    "description": "Represents self-sufficiency, luxury, and independence, enjoying fruits of labor and personal achievement.",
+                    "description_th": "หมายถึงความพอเพียง ความหรูหรา และความเป็นอิสระ เพลิดเพลินกับผลแห่งการทำงานและความสำเร็จส่วนบุคคล",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "Ten of Pentacles",
+                    "name_th": "สิบเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/04/50/fe/0450fef577bbc3a2491e98b1d9dc672c.jpg",
+                    "description": "Symbolizes wealth, legacy, and family security, indicating long-term stability and generational abundance.",
+                    "description_th": "สัญลักษณ์ของความมั่งคั่ง มรดก และความมั่นคงของครอบครัว บ่งบอกถึงความมั่นคงระยะยาวและความอุดมสมบูรณ์ข้ามรุ่น",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "Page of Pentacles",
+                    "name_th": "เพจเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/62/e0/5f/62e05f7c82fdf1c26d6e54f88e2bf785.jpg",
+                    "description": "Represents practicality, ambition, and new opportunities, approaching goals with diligence and learning.",
+                    "description_th": "หมายถึงความเป็นจริง ความทะเยอทะยาน และโอกาสใหม่ เข้าใกล้เป้าหมายด้วยความขยันขันแข็งและการเรียนรู้"
+                },
+                {
+                    "name": "Knight of Pentacles",
+                    "name_th": "อัศวินเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/3b/7f/2c/3b7f2c7aa0fb55a61fc4a41a415d68ce.jpg",
+                    "description": "Symbolizes hard work, responsibility, and methodical progress, steadily advancing toward security.",
+                    "description_th": "สัญลักษณ์ของการทำงานหนัก ความรับผิดชอบ และความก้าวหน้าอย่างมีระบบ ค่อยๆ ก้าวไปสู่ความมั่นคง",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "Queen of Pentacles",
+                    "name_th": "ราชินีเหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/82/b5/f0/82b5f0a2a9df25eb66564196a68020b9.jpg",
+                    "description": "Represents nurturing, generosity, and practical care, providing abundance and comfort to others.",
+                    "description_th": "หมายถึงการเลี้ยงดู ความเอื้อเฟื้อ และการดูแลอย่างเป็นจริง มอบความอุดมสมบูรณ์และความสะดวกสบายให้แก่ผู้อื่น",
+                    "category": "FINANCE"
+                },
+                {
+                    "name": "King of Pentacles",
+                    "name_th": "กษัตริย์เหรียญทอง",
+                    "image": "https://i.pinimg.com/736x/17/24/79/172479d925636501e0c0518b13a9d6a2.jpg",
+                    "description": "Symbolizes wealth, stability, and material success, embodying disciplined achievement and reliable provision.",
+                    "description_th": "สัญลักษณ์ของความมั่งคั่ง ความมั่นคง และความสำเร็จทางวัตถุ รวบรวมความสำเร็จที่มีวินัยและการจัดหาที่เชื่อถือได้"
+                }
+            ],
+            "cupcard": [
+                {
+                    "name": "Ace of Cups",
+                    "name_th": "เอซถ้วย",
+                    "image": "https://i.pinimg.com/736x/69/3c/b5/693cb5e4a38ebf30911520ae8393a144.jpg",
+                    "description": "Represents new beginnings in emotions, love, and intuition, offering opportunities for deep connections and emotional fulfillment.",
+                    "description_th": "หมายถึงการเริ่มต้นใหม่ในอารมณ์ ความรัก และสัญชาตญาณ เสนอโอกาสสำหรับการเชื่อมโยงอย่างลึกซึ้งและความสมหวังทางอารมณ์",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Two of Cups",
+                    "name_th": "สองถ้วย",
+                    "image": "https://i.pinimg.com/1200x/b5/1e/ea/b51eeaeace943a7ae4bb886b64e0eaa2.jpg",
+                    "description": "Symbolizes partnership, mutual attraction, and harmony in relationships, highlighting balance and unity between individuals.",
+                    "description_th": "สัญลักษณ์ของความเป็นหุ้นส่วน ความดึงดูดซึ่งกันและกัน และความกลมกลืนในความสัมพันธ์ เน้นความสมดุลและความเป็นหนึ่งเดียวระหว่างบุคคล",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Three of Cups",
+                    "name_th": "สามถ้วย",
+                    "image": "https://i.pinimg.com/736x/55/49/4f/55494f2b46e9c148802ad7c6dd8be8ef.jpg",
+                    "description": "Represents celebration, friendship, and community joy, indicating gatherings and shared happiness among loved ones.",
+                    "description_th": "หมายถึงการเฉลิมฉลอง มิตรภาพ และความสุขของชุมชน บ่งบอกถึงการชุมนุมและความสุขที่แบ่งปันกันระหว่างคนที่รัก",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Four of Cups",
+                    "name_th": "สี่ถ้วย",
+                    "image": "https://i.pinimg.com/736x/ab/e4/31/abe431aaede0562fc1d1ce9e2cd3e637.jpg",
+                    "description": "Symbolizes apathy, contemplation, and missed opportunities, urging reevaluation of dissatisfaction for new appreciation.",
+                    "description_th": "สัญลักษณ์ของความเฉยเมย การครึกครอง และโอกาสที่พลาด กระตุ้นให้ประเมินความไม่พอใจใหม่เพื่อความชื่นชมแบบใหม่"
+                },
+                {
+                    "name": "Five of Cups",
+                    "name_th": "ห้าถ้วย",
+                    "image": "https://i.pinimg.com/736x/49/0d/11/490d11b59cde3cedb3e0e2d573d0437f.jpg",
+                    "description": "Represents loss, regret, and grief, focusing on emotional pain while encouraging hope in remaining positives.",
+                    "description_th": "หมายถึงการสูญเสีย ความเสียใจ และความโศกเศร้า มุ่งเน้นไปที่ความเจ็บปวดทางอารมณ์ในขณะที่ส่งเสริมความหวังในสิ่งดีที่เหลืออยู่"
+                },
+                {
+                    "name": "Six of Cups",
+                    "name_th": "หกถ้วย",
+                    "image": "https://i.pinimg.com/736x/a3/60/d6/a360d669b848841d9f537295cb257ca0.jpg",
+                    "description": "Symbolizes innocence, nostalgia, and kindness, evoking childhood memories and pure, giving connections.",
+                    "description_th": "สัญลักษณ์ของความบริสุทธิ์ใจ ความคิดถึง และความเมตตา ปลุกเร้าความทรงจำในวัยเด็กและการเชื่อมโยงที่บริสุทธิ์และให้",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Seven of Cups",
+                    "name_th": "เจ็ดถ้วย",
+                    "image": "https://i.pinimg.com/736x/82/31/5a/82315a76de2ac9fa65be14a08f50061d.jpg",
+                    "description": "Represents choices, illusions, and dreams, cautioning against fantasy and encouraging grounded decisions.",
+                    "description_th": "หมายถึงทางเลือก ภาพลวงตา และความฝัน เตือนเกี่ยวกับจินตนาการและส่งเสริมการตัดสินใจที่มีพื้นฐาน",
+                    "category": "LIFE"
+                },
+                {
+                    "name": "Eight of Cups",
+                    "name_th": "แปดถ้วย",
+                    "image": "https://i.pinimg.com/736x/df/8e/4a/df8e4ae36596b29a86ca8533e47dbb60.jpg",
+                    "description": "Symbolizes walking away, seeking deeper meaning, and emotional departure from unfulfilling situations.",
+                    "description_th": "สัญลักษณ์ของการจากไป การแสวงหาความหมายที่ลึกซึ้งยิ่งขึ้น และการจากไปทางอารมณ์จากสถานการณ์ที่ไม่เติมเต็ม"
+                },
+                {
+                    "name": "Nine of Cups",
+                    "name_th": "เก้าถ้วย",
+                    "image": "https://i.pinimg.com/736x/0f/29/c7/0f29c7c1e3774039175b07a27559fcf8.jpg",
+                    "description": "Represents contentment, satisfaction, and emotional fulfillment, indicating wishes granted and material comfort.",
+                    "description_th": "หมายถึงความพอใจ ความพึงพอใจ และความสมหวังทางอารมณ์ บ่งบอกถึงความปรารถนาที่สมหวังและความสะดวกสบายทางวัตถุ"
+                },
+                {
+                    "name": "Ten of Cups",
+                    "name_th": "สิบถ้วย",
+                    "image": "https://i.pinimg.com/736x/83/53/77/835377eb2050ea266bc556ed40d22866.jpg",
+                    "description": "Symbolizes family harmony, happiness, and emotional fulfillment, depicting ideal relationships and lasting joy.",
+                    "description_th": "สัญลักษณ์ของความกลมกลืนในครอบครัว ความสุข และความสมหวังทางอารมณ์ พรรณนาถึงความสัมพันธ์ในอุดมคติและความสุขที่ยั่งยืน",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Page of Cups",
+                    "name_th": "เพจถ้วย",
+                    "image": "https://i.pinimg.com/736x/ff/66/31/ff663165d0374b13733562971d94dbb4.jpg",
+                    "description": "Represents creativity, intuition, and emotional messages, signaling tender beginnings and imaginative sensitivity.",
+                    "description_th": "หมายถึงความคิดสร้างสรรค์ สัญชาตญาณ และข้อความทางอารมณ์ ส่งสัญญาณการเริ่มต้นที่อ่อนโยนและความไวทางจินตนาการ",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Knight of Cups",
+                    "name_th": "อัศวินถ้วย",
+                    "image": "https://i.pinimg.com/736x/6b/63/25/6b63255c6cb24eb5ced8bfe8d96e5476.jpg",
+                    "description": "Symbolizes romance, idealism, and following the heart, guiding toward emotional quests and artistic pursuits.",
+                    "description_th": "สัญลักษณ์ของความโรแมนติก ลัทธิอุดมคติ และการติดตามหัวใจ นำทางสู่การแสวงหาทางอารมณ์และการแสวงหาศิลปะ",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Queen of Cups",
+                    "name_th": "ราชินีถ้วย",
+                    "image": "https://i.pinimg.com/736x/56/f0/d6/56f0d6ec01786b8da21b7012f3d3aa4a.jpg",
+                    "description": "Represents compassion, empathy, and intuition, offering nurturing support and deep emotional understanding.",
+                    "description_th": "หมายถึงความเห็นอกเห็นใจ ความเอาใจใส่ และสัญชาตญาณ เสนอการสนับสนุนที่เลี้ยงดูและความเข้าใจทางอารมณ์อย่างลึกซึ้ง",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "King of Cups",
+                    "name_th": "กษัตริย์ถ้วย",
+                    "image": "https://i.pinimg.com/736x/03/a5/0b/03a50b70ee22a1a494e63e864634d4e8.jpg",
+                    "description": "Symbolizes emotional balance, wisdom, and control, providing stability and mature handling of feelings.",
+                    "description_th": "สัญลักษณ์ของความสมดุลทางอารมณ์ ภูมิปัญญา และการควบคุม ให้ความมั่นคงและการจัดการความรู้สึกอย่างผู้ใหญ่",
+                    "category": "LOVE"
+                }
+            ],
+            "swordcard": [
+                {
+                    "name": "Ace of Swords",
+                    "name_th": "เอซดาบ",
+                    "image": "https://i.pinimg.com/736x/9f/8e/af/9f8eaf9e23e951c93ca6d133f5769769.jpg",
+                    "description": "Represents clarity, truth, and breakthroughs, cutting through confusion for new intellectual beginnings.",
+                    "description_th": "หมายถึงความชัดเจน ความจริง และการพังทลาย ตัดผ่านความสับสนเพื่อการเริ่มต้นทางปัญญาใหม่"
+                },
+                {
+                    "name": "Two of Swords",
+                    "name_th": "สองดาบ",
+                    "image": "https://i.pinimg.com/736x/76/ca/a0/76caa0bfdde858a39b5892eb17a4ed93.jpg",
+                    "description": "Symbolizes indecision, stalemate, and balance, requiring impartial choices amid emotional tension.",
+                    "description_th": "สัญลักษณ์ของความลังเลใจ ทางตัน และความสมดุล ต้องการทางเลือกที่เป็นกลางท่ามกลางความตึงเครียดทางอารมณ์"
+                },
+                {
+                    "name": "Three of Swords",
+                    "name_th": "สามดาบ",
+                    "image": "https://i.pinimg.com/736x/da/9f/b6/da9fb68d92b1203bd04bb70de1c3ea38.jpg",
+                    "description": "Represents heartbreak, sorrow, and betrayal, acknowledging pain for healing and acceptance.",
+                    "description_th": "หมายถึงหัวใจสลาย ความโศกเศร้า และการทรยศ ยอมรับความเจ็บปวดเพื่อการเยียวยาและการยอมรับ"
+                },
+                {
+                    "name": "Four of Swords",
+                    "name_th": "สี่ดาบ",
+                    "image": "https://i.pinimg.com/736x/4c/6d/30/4c6d30daa17f1ce10175bbdb19467c6f.jpg",
+                    "description": "Symbolizes rest, recovery, and contemplation, retreating for peace and strategic pause.",
+                    "description_th": "สัญลักษณ์ของการพักผ่อน การฟื้นตัว และการครุ่นคิด ถอยร่นเพื่อความสงบและการหยุดพักเชิงกลยุทธ์",
+                    "category": "LIFE"
+                },
+                {
+                    "name": "Five of Swords",
+                    "name_th": "ห้าดาบ",
+                    "image": "https://i.pinimg.com/1200x/2f/1c/81/2f1c812ff313dfcd27da74922dc7fad1.jpg",
+                    "description": "Represents conflict, defeat, and win-at-all-costs, warning against dishonor and encouraging compromise.",
+                    "description_th": "หมายถึงความขัดแย้ง ความพ่ายแพ้ และการชนะไม่ว่าจะต้องเสียอะไร เตือนเกี่ยวกับความอัปยศและส่งเสริมการประนีประนอม"
+                },
+                {
+                    "name": "Six of Swords",
+                    "name_th": "หกดาบ",
+                    "image": "https://i.pinimg.com/736x/62/c5/37/62c537981f21f997a25938e753ce3a98.jpg",
+                    "description": "Symbolizes transition, healing, and moving on, journeying away from difficulties toward calmer waters.",
+                    "description_th": "สัญลักษณ์ของการเปลี่ยนผ่าน การเยียวยา และการก้าวต่อไป เดินทางออกจากความยากลำบากสู่น่านน้ำที่สงบกว่า",
+                    "category": "LIFE"
+                },
+                {
+                    "name": "Seven of Swords",
+                    "name_th": "เจ็ดดาบ",
+                    "image": "https://i.pinimg.com/736x/c4/54/8d/c4548d6076b067882141d9eb4de80ec6.jpg",
+                    "description": "Represents strategy, deception, and cunning, advising caution and ethical navigation of tricks.",
+                    "description_th": "หมายถึงกลยุทธ์ การหลอกลวง และความฉลาดเจ้าเล่ห์ แนะนำความระมัดระวังและการนำทางอย่างมีจริยธรรมของเล่ห์กล"
+                },
+                {
+                    "name": "Eight of Swords",
+                    "name_th": "แปดดาบ",
+                    "image": "https://i.pinimg.com/736x/9e/2b/65/9e2b65489dd37bdeb7d4e666f49f3ba1.jpg",
+                    "description": "Symbolizes restriction, self-imposed limits, and entrapment, breaking free through mindset shifts.",
+                    "description_th": "สัญลักษณ์ของข้อจำกัด ขีดจำกัดที่กำหนดเอง และการติดกับดัก หลุดพ้นผ่านการเปลี่ยนแปลงทัศนคติ"
+                },
+                {
+                    "name": "Nine of Swords",
+                    "name_th": "เก้าดาบ",
+                    "image": "https://i.pinimg.com/736x/20/7b/4a/207b4a257059e3ff4f00bb0b7b82abe4.jpg",
+                    "description": "Represents anxiety, nightmares, and despair, confronting fears for relief and mental clarity.",
+                    "description_th": "หมายถึงความวิตกกังวล ฝันร้าย และความสิ้นหวัง เผชิญหน้ากับความกลัวเพื่อความโล่งใจและความชัดเจนทางจิตใจ"
+                },
+                {
+                    "name": "Ten of Swords",
+                    "name_th": "สิบดาบ",
+                    "image": "https://i.pinimg.com/736x/12/2d/70/122d7084210bfd498236d4b60e1e9369.jpg",
+                    "description": "Symbolizes endings, rock bottom, and betrayal, marking closure and the start of recovery.",
+                    "description_th": "สัญลักษณ์ของการสิ้นสุด จุดต่ำสุด และการทรยศ ทำเครื่องหมายการปิดและการเริ่มต้นของการฟื้นตัว",
+                    "category": "LIFE"
+                },
+                {
+                    "name": "Page of Swords",
+                    "name_th": "เพจดาบ",
+                    "image": "https://i.pinimg.com/736x/ce/b1/3a/ceb13aacc17009099fcba2d0e245c2a1.jpg",
+                    "description": "Represents curiosity, vigilance, and new ideas, communicating intellect and alertness.",
+                    "description_th": "หมายถึงความอยากรู้อยากเห็น ความระมัดระวัง และความคิดใหม่ สื่อสารสติปัญญาและความตื่นตัว"
+                },
+                {
+                    "name": "Knight of Swords",
+                    "name_th": "อัศวินดาบ",
+                    "image": "https://i.pinimg.com/736x/30/68/d6/3068d63e3739abaae6819ee2c897079a.jpg",
+                    "description": "Symbolizes ambition, action, and conflict, charging ahead with truth and direct confrontation.",
+                    "description_th": "สัญลักษณ์ของความทะเยอทะยาน การกระทำ และความขัดแย้ง พุ่งไปข้างหน้าด้วยความจริงและการเผชิญหน้าโดยตรง"
+                },
+                {
+                    "name": "Queen of Swords",
+                    "name_th": "ราชินีดาบ",
+                    "image": "https://i.pinimg.com/736x/2e/19/fa/2e19fa65b05132efc81f1c02b8263d90.jpg",
+                    "description": "Represents independence, clarity, and intellect, cutting through deception with honest judgment.",
+                    "description_th": "หมายถึงความเป็นอิสระ ความชัดเจน และสติปัญญา ตัดผ่านการหลอกลวงด้วยการตัดสินที่ซื่อสัตย์"
+                },
+                {
+                    "name": "King of Swords",
+                    "name_th": "กษัตริย์ดาบ",
+                    "image": "https://i.pinimg.com/736x/b8/ac/cf/b8accf54c7b5db615bb400d026cfcf34.jpg",
+                    "description": "Symbolizes authority, truth, and intellect, ruling with logic, justice, and strategic wisdom.",
+                    "description_th": "สัญลักษณ์ของอำนาจ ความจริง และสติปัญญา ปกครองด้วยตรรกะ ความยุติธรรม และภูมิปัญญาเชิงกลยุทธ์",
+                    "category": "CAREER"
+                }
+            ],
+            "woodcard": [
+                {
+                    "name": "Ace of Wands",
+                    "name_th": "เอซไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/6f/72/39/6f7239da6d22c66a947044db5d2f41e7.jpg",
+                    "description": "Represents inspiration, new beginnings, and creative energy, igniting passion and potential for growth.",
+                    "description_th": "หมายถึงแรงบันดาลใจ การเริ่มต้นใหม่ และพลังสร้างสรรค์ จุดประกายความหลงใหลและศักยภาพในการเติบโต",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "Two of Wands",
+                    "name_th": "สองไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/3e/e0/1e/3ee01e82ea79f56779736a29bcf32e56.jpg",
+                    "description": "Symbolizes planning, discovery, and bold decisions, envisioning future possibilities and taking initiative.",
+                    "description_th": "สัญลักษณ์ของการวางแผน การค้นพบ และการตัดสินใจที่กล้าหาญ มองเห็นความเป็นไปได้ในอนาคตและริเริ่ม"
+                },
+                {
+                    "name": "Three of Wands",
+                    "name_th": "สามไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/87/e7/44/87e744f8f9e561adc1be95df56ff2b3c.jpg",
+                    "description": "Represents expansion, foresight, and opportunity, awaiting rewards from initial efforts and exploration.",
+                    "description_th": "หมายถึงการขยายตัว การมองการณ์ไกล และโอกาส รอคอยผลตอบแทนจากความพยายามและการสำรวจเริ่มแรก",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "Four of Wands",
+                    "name_th": "สี่ไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/ab/db/a7/abdba7804dc611539709844e41c9e184.jpg",
+                    "description": "Symbolizes celebration, home, and stability, indicating harmony and joyful gatherings in secure environments.",
+                    "description_th": "สัญลักษณ์ของการเฉลิมฉลอง บ้าน และความมั่นคง บ่งบอกถึงความกลมกลืนและการชุมนุมอย่างมีความสุขในสภาพแวดล้อมที่ปลอดภัย",
+                    "category": "LOVE"
+                },
+                {
+                    "name": "Five of Wands",
+                    "name_th": "ห้าไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/f2/53/94/f25394c6f833537852e689b276f23889.jpg",
+                    "description": "Represents conflict, competition, and rivalry, navigating challenges through teamwork and assertiveness.",
+                    "description_th": "หมายถึงความขัดแย้ง การแข่งขัน และการแข่งขันกัน ฝ่าฟันความท้าทายผ่านการทำงานเป็นทีมและความมั่นใจ"
+                },
+                {
+                    "name": "Six of Wands",
+                    "name_th": "หกไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/a2/b8/41/a2b84154228eb68adbfe5347123954ec.jpg",
+                    "description": "Symbolizes victory, recognition, and public success, achieving goals with confidence and acclaim.",
+                    "description_th": "สัญลักษณ์ของชัยชนะ การยอมรับ และความสำเร็จในที่สาธารณะ บรรลุเป้าหมายด้วยความมั่นใจและคำชื่นชม"
+                },
+                {
+                    "name": "Seven of Wands",
+                    "name_th": "เจ็ดไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/5d/c2/18/5dc218ede6bc398a9e1b2686e69d1636.jpg",
+                    "description": "Represents defense, perseverance, and standing ground, facing opposition with courage and determination.",
+                    "description_th": "หมายถึงการป้องกัน ความพากเพียร และการยืนหยัด เผชิญหน้ากับการต่อต้านด้วยความกล้าหาญและความมุ่งมั่น"
+                },
+                {
+                    "name": "Eight of Wands",
+                    "name_th": "แปดไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/29/f8/d1/29f8d163d2acf260abc903e746a3b3b0.jpg",
+                    "description": "Symbolizes swift action, movement, and communication, accelerating progress and direct messages.",
+                    "description_th": "สัญลักษณ์ของการกระทำที่รวดเร็ว การเคลื่อนไหว และการสื่อสาร เร่งความก้าวหน้าและข้อความโดยตรง",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "Nine of Wands",
+                    "name_th": "เก้าไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/9d/94/fe/9d94fee5d727565c83dd5b358bd8d96f.jpg",
+                    "description": "Represents resilience, persistence, and vigilance, guarding against fatigue after prolonged efforts.",
+                    "description_th": "หมายถึงความยืดหยุ่น ความมุ่งมั่น และความเฝ้าระวัง ป้องกันความเหนื่อยล้าหลังจากความพยายามที่ยาวนาน"
+                },
+                {
+                    "name": "Ten of Wands",
+                    "name_th": "สิบไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/f4/33/dd/f433dd74a5a97582fca99d1f98e5728b.jpg",
+                    "description": "Symbolizes burden, responsibility, and completion, carrying loads but nearing the end of struggles.",
+                    "description_th": "สัญลักษณ์ของภาระ ความรับผิดชอบ และความสมบูรณ์ แบกรับภาระแต่ใกล้จะจบการต่อสู้",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "Page of Wands",
+                    "name_th": "เพจไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/c5/23/c1/c523c1ed914caa9f1aae16639ced8f8c.jpg",
+                    "description": "Represents enthusiasm, exploration, and creative ideas, signaling adventurous messages and optimism.",
+                    "description_th": "หมายถึงความกระตือรือร้น การสำรวจ และความคิดสร้างสรรค์ ส่งสัญญาณข้อความที่ชอบผจญภัยและการมองโลกในแง่ดี",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "Knight of Wands",
+                    "name_th": "อัศวินไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/06/f0/6f/06f06f158920941dddc6d3e2acecb418.jpg",
+                    "description": "Symbolizes passion, adventure, and impulsiveness, charging forward with energy and charisma.",
+                    "description_th": "สัญลักษณ์ของความหลงใหล การผจญภัย และความหุนหันพลันแล่น พุ่งไปข้างหน้าด้วยพลังและเสน่ห์",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "Queen of Wands",
+                    "name_th": "ราชินีไม้เท้า",
+                    "image": "https://i.pinimg.com/736x/c4/4e/57/c44e5710452ed752270931e21f969ceb.jpg",
+                    "description": "Represents confidence, warmth, and creativity, embodying vibrant leadership and supportive energy.",
+                    "description_th": "หมายถึงความมั่นใจ ความอบอุ่น และความคิดสร้างสรรค์ รวบรวมภาวะผู้นำที่มีชีวิตชีวาและพลังที่สนับสนุน",
+                    "category": "CAREER"
+                },
+                {
+                    "name": "King of Wands",
+                    "name_th": "กษัตริย์ไม้เท้า",
+                    "image": "https://i.pinimg.com/1200x/95/91/4a/95914ae320de34ad69f8d43c509449b7.jpg",
+                    "description": "Symbolizes vision, entrepreneurship, and leadership, inspiring others with bold ideas and authority.",
+                    "description_th": "สัญลักษณ์ของวิสัยทัศน์ ความเป็นผู้ประกอบการ และความเป็นผู้นำ สร้างแรงบันดาลใจให้ผู้อื่นด้วยความคิดที่กล้าหาญและอำนาจ",
+                    "category": "CAREER"
+                }
+            ]
+        }
+    }
+}
